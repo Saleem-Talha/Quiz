@@ -5,7 +5,7 @@ Welcome to the General Knowledge Quiz App, a fun and educational web application
 
 ## Live Demo
 
-Explore the live demo here [Click Here]()
+Explore the live demo here [Click Here](https://saleem-talha.github.io/Quiz/)
 
 # Key Features:
 
