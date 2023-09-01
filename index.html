@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="icon" href="./images/quiz.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1 style="display: block; text-align: center;">General Knowledge Quiz</h1>
+        <div class="quiz">
+            <div id="welcome" style="display: block; text-align: center;">
+                <p>Welcome! Press Start to begin the quiz.</p>
+                <button id="start-btn">Start</button>
+            </div>
+            <h2 id="question" style="display: none;">Questions Go Here</h2>
+            <div id="answer-buttons" style="display: none;">
+                <!-- Answer buttons will be dynamically generated here -->
+            </div>
+            <button id="next-btn" style="display: none;">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
